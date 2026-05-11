@@ -1,0 +1,7 @@
+arr = list(map(int, input("Enter elements: ").split()))
+key = int(input("Enter search element: "))
+
+if key in arr:
+    print("Element Found")
+else:
+    print("Element Not Found")
