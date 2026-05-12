@@ -1,0 +1,6 @@
+string = input("Enter string: ")
+char = input("Enter character: ")
+
+count = string.count(char)
+
+print("Frequency:", count)
